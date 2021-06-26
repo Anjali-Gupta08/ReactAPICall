@@ -1,0 +1,30 @@
+*{
+  margin: 0;
+  padding: 0;
+  /* box-sizing: border-box; */
+  background-color:rosybrown;
+ } 
+
+.App{
+  background-color:darkslategrey;
+  align-items: center;
+  display: flex;
+  flex-direction:row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  padding: 12px;
+  margin: 12px 12px 12px 12px;
+  box-sizing: border-box;
+}
+.Text{
+  color: #f4f4f4;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 10px
+}
+
