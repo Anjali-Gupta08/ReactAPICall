@@ -37,7 +37,7 @@ class  App extends Component {
                 
                     {items.map(item => (
                       
-                      <div   key={item.id}> 
+                      <div key={item.id}> 
                       <img src={item.img_url} width='400px'alt='Image'></img>
                       <h3 className='Text'> Name: {item.name} </h3>
                       <h3 className='Text'>Gender: {item.gender} </h3>
